@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* sets the height to max height 100% view height */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* shadow of box */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#value {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    display: block;   /* converts it into block level */
+    margin-bottom: 20px;  /* since its block now, op bottom margin and padding can be used */
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.decrease {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.reset {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.increase {
+    background-color: #4caf50;
+    color: #fff;
+}
